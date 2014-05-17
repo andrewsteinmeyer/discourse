@@ -1,0 +1,32 @@
+// --------------------------------------------------
+// Variables used throughout the theme
+// --------------------------------------------------
+
+// Layout dimensions
+// --------------------------------------------------
+
+$small-width: 950px !default;
+$medium-width: 995px !default;
+$large-width: 1110px !default;
+
+// Brand color variables
+// --------------------------------------------------
+
+$google: #5b76f7 !default;
+$facebook: #3b5998 !default;
+$cas: #70BA61 !default;
+$twitter: #00bced !default;
+$yahoo: #810293 !default;
+$github: #6d6d6d !default;
+
+// Fonts
+// --------------------------------------------------
+
+$base-font-size: 14px !default;
+$base-line-height: 19px !default;
+$base-font-family: Helvetica, Arial, sans-serif !default;
+
+@import "colors";
+
+/* This file doesn't actually exist, it is injected by DiscourseSassImporter. */
+@import "plugins_variables";
